@@ -1,4 +1,4 @@
-FROM python:3.7.13
+FROM python:3
 
 RUN python -m pip install --upgrade pip &\
 			pip install ffprobe ffmpeg
